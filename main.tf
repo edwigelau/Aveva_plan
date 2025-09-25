@@ -8,6 +8,6 @@ resource "aws_instance" "server1" {
     availability_zone = "us-east-1" 
     tags ={
         Name= "Dev_server"
-        Environment = Dev
+        Environment = "Dev"
     } 
 }
